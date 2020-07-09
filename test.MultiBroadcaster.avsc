@@ -1,0 +1,8 @@
+{
+    "namespace": "test",
+    "type": "record",
+    "name": "MultiBroadcaster",
+    "fields": [
+        {"name": "broadcaster", "type": ["null", "test.Broadcaster"], "default": null}
+    ]
+}

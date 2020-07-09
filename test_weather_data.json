@@ -1,0 +1,14 @@
+{
+    "temperature": 99,
+    "multibroadcaster": {
+        "broadcaster": {
+            "presenterName": "Pat",
+            "presenterId": "2468ACE"
+        }
+    },
+    "station": {
+        "stationId": "13579BDF",
+        "stationName": "Local"
+    },
+    "time": 1234567890
+}

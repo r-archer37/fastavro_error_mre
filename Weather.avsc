@@ -1,0 +1,14 @@
+{
+    "doc": "A weather reading.",
+    "name": "Weather",
+    "namespace": "test",
+    "type": "record",
+    "fields": [
+        {"name": "temperature", "type": "int"},
+        {"name": "time", "type": ["null", "long"], "default": null},
+        {"name": "multibroadcaster", "type": ["null", "test.MultiBroadcaster"],
+            "default": null
+        },
+        {"name": "station", "type": ["null", "test.Station"], "default": null}
+    ]
+}

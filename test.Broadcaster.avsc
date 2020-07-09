@@ -1,0 +1,9 @@
+{
+    "namespace": "test",
+    "type": "record",
+    "name": "Broadcaster",
+    "fields": [
+        {"name": "presenterId", "type": ["null", "string"], "default": null},
+        {"name": "presenterName", "type": ["null", "string"], "default": null}
+    ]
+}
